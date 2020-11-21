@@ -1,5 +1,5 @@
 # Data mining project for K6312
-## Title: What did media say when talking about COVID-19: Analysis of topics and sentiments of COVID-19 news headlines
+## What did media say when talking about COVID-19: Analysis of topics and sentiments of COVID-19 news headlines
 
 ### Background
 * The COVID-19 virus has spreaded around the world and has a wide-ranging impact on society.
