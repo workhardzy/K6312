@@ -17,9 +17,22 @@
 * From 2020-01-02 to 2020-09-14
 * Covering topic areas of general news, finance, science, technology...
 * Columns of ‘title’, ‘date’, ‘content’, ‘author’, ‘topic_area’...
-* https://www.kaggle.com/jannalipenkova/covid19-public-media-dataset
+* Source url: https://www.kaggle.com/jannalipenkova/covid19-public-media-dataset
 
-### Code
+* IMDB dataset (for training sentiment models), retrieved November 22, 2020, from http://www.imdb.com/interfaces/
+
+### Code file
+* sentiment_analysis_binary_classification.ipynb - Preprocessing IMDB data; train Machine Learning approaches and test; select a sample of Covid-19 news dataset and annotate it manually; evaluating model's performance on the out-of-distribution set; use a good performing model strategy to label all data.
+* sentiment_analysis_binary_classification_CNN.ipynb - Do sentiment classification with CNN based on IMDB dataset and test performance. 
+* sentiment_analysis_binary_classification_vader.ipynb - Do sentiment classification with Vader based on IMDB dataset and test performance. 
+* Testing_sentiment_analysis_binary_classification.ipynb -  Try to train the model on the News Popularity in Multiple Social Media Platforms Dataset.
+    (But after comparing the results, the models performed better on the IMDB data and hence it was not used.)
+
+* preprocessing_COVID_news_ipynb（for_topic_modeling）.ipynb - Preprocessing Covid-19 news data; cut data by month.
+* topic_modelling_COVID_news_ipynb（for_topic_modeling）.ipynb - Use LDA to model topics.
+* topic_classification_ipynb（for_topic_classification）.ipynb - Use Multinomial NB to classify topics.
+
+* data_analysis_pandas.ipynb - Do topic, sentiment, and sentiment-based analysis.
 
 ### Data files used and generated
 
