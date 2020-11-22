@@ -22,3 +22,9 @@
 ### Code
 
 ### Data files used and generated
+
+
+### additional notes
+We have also attempted to train the model on the News Popularity in Multiple Social Media Platforms Data Set.
+https://archive.ics.uci.edu/ml/datasets/News+Popularity+in+Multiple+Social+Media+Platforms
+However, as seen in the comparison between Testing_sentiment_analysis_binary_classification.ipynb and Sentiment_analysis_binary_classification.ipynb, the dataset performed better on the IMDB data and hence it was not used.
