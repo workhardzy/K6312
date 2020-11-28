@@ -38,7 +38,7 @@
 * data_analysis_pandas.ipynb - Do topic, sentiment, and sentiment-based analysis.
 
 ### Data files used and generated
-
+* Most data files are too large to upload.
 
 ### Additional notes
 We have also attempted to train the model on the News Popularity in Multiple Social Media Platforms Data Set.
